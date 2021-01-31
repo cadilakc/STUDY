@@ -24,7 +24,7 @@ public class Dog extends Animal {
         if (lengthObstacle <= 10 && lengthObstacle > 0) {
             System.out.printf("%s проплыл %d метров", name, lengthObstacle);
         } else {
-            System.out.println("Увы, но собака не может столько проплыть");
+            System.out.print("Увы, но собака не может столько проплыть");
         }
         System.out.println();
     }
