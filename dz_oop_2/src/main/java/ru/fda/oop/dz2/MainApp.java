@@ -4,7 +4,6 @@ import ru.fda.oop.dz2.animals.*;
 
 public class MainApp {
     public static void main(String[] args) {
-        int check = 0;
         Animal cat = new Cat("Муська", "Серая", "Дворняжка", 3, 13);
         cat.run(150);
         cat.sail(150);
