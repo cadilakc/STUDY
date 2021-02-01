@@ -9,7 +9,10 @@ public class MainApp {
         cat.sail(150);
 
         Animal dog = new Dog("Бобик", "Черный", "Дворняга", 5, 22);
-        dog.run(-10);
+        dog.run(400);
         dog.sail(10);
+
+
+        System.out.println("Всего было создано " + dog.getCheck() + " животных");
     }
 }
